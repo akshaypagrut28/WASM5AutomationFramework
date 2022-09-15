@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[---Database connection successful---]]>
+    </line>
+    <line>
+      <![CDATA[----browserChromelaunched successfully]]>
+    </line>
+    <line>
+      <![CDATA[----Login successful----]]>
+    </line>
+    <line>
+      <![CDATA[-----signout successfully----]]>
+    </line>
+    <line>
+      <![CDATA[----browser close successfully----]]>
+    </line>
+    <line>
+      <![CDATA[----browserChromelaunched successfully]]>
+    </line>
+    <line>
+      <![CDATA[----Login successful----]]>
+    </line>
+    <line>
+      <![CDATA[Contact is created]]>
+    </line>
+    <line>
+      <![CDATA[-----signout successfully----]]>
+    </line>
+    <line>
+      <![CDATA[----browser close successfully----]]>
+    </line>
+    <line>
+      <![CDATA[----browserChromelaunched successfully]]>
+    </line>
+    <line>
+      <![CDATA[----Login successful----]]>
+    </line>
+    <line>
+      <![CDATA[vendors page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[create vendor page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[vendor information page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Vendor is created]]>
+    </line>
+    <line>
+      <![CDATA[-----signout successfully----]]>
+    </line>
+    <line>
+      <![CDATA[----browser close successfully----]]>
+    </line>
+    <line>
+      <![CDATA[-----database close successfully----]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64801" started-at="2022-09-15T19:28:26 IST" finished-at="2022-09-15T19:29:31 IST">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="CreateContactWithOrganizationTest.createContWithOrgTest()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@3cb1ffe6]" name="createContWithOrgTest" class="vtiger.ContactsTests.CreateContactWithOrganizationTest"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="CreateContactWithMandFieldTest.createContactTest()[pri:0, instance:vtiger.ContactsTests.CreateContactWithMandFieldTest@2a742aa2]" name="createContactTest" class="vtiger.ContactsTests.CreateContactWithMandFieldTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test name="Test" duration-ms="64801" started-at="2022-09-15T19:28:26 IST" finished-at="2022-09-15T19:29:31 IST">
+      <class name="vtiger.ContactsTests.CreateContactWithOrganizationTest">
+        <test-method status="PASS" signature="bcConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@3cb1ffe6]" name="bcConfig" is-config="true" duration-ms="3041" started-at="2022-09-15T19:28:46 IST" finished-at="2022-09-15T19:28:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[----browserChromelaunched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method status="PASS" signature="bmConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@3cb1ffe6]" name="bmConfig" is-config="true" duration-ms="2776" started-at="2022-09-15T19:28:49 IST" finished-at="2022-09-15T19:28:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[----Login successful----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method status="PASS" signature="createContWithOrgTest()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@3cb1ffe6]" name="createContWithOrgTest" duration-ms="21734" started-at="2022-09-15T19:28:52 IST" finished-at="2022-09-15T19:29:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact is created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContWithOrgTest -->
+        <test-method status="PASS" signature="amConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@3cb1ffe6]" name="amConfig" is-config="true" duration-ms="1594" started-at="2022-09-15T19:29:14 IST" finished-at="2022-09-15T19:29:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[-----signout successfully----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method status="PASS" signature="acConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@3cb1ffe6]" name="acConfig" is-config="true" duration-ms="200" started-at="2022-09-15T19:29:16 IST" finished-at="2022-09-15T19:29:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[----browser close successfully----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.ContactsTests.CreateContactWithOrganizationTest -->
+      <class name="vtiger.VendorsTests.CreateVendorTest">
+        <test-method status="PASS" signature="bcConfig()[pri:0, instance:vtiger.VendorsTests.CreateVendorTest@3dfc5fb8]" name="bcConfig" is-config="true" duration-ms="2980" started-at="2022-09-15T19:29:16 IST" finished-at="2022-09-15T19:29:19 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[----browserChromelaunched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method status="PASS" signature="bmConfig()[pri:0, instance:vtiger.VendorsTests.CreateVendorTest@3dfc5fb8]" name="bmConfig" is-config="true" duration-ms="2715" started-at="2022-09-15T19:29:19 IST" finished-at="2022-09-15T19:29:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[----Login successful----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method status="PASS" signature="createVendorTest()[pri:0, instance:vtiger.VendorsTests.CreateVendorTest@3dfc5fb8]" name="createVendorTest" duration-ms="8062" started-at="2022-09-15T19:29:21 IST" finished-at="2022-09-15T19:29:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[vendors page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[create vendor page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[vendor information page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Vendor is created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createVendorTest -->
+        <test-method status="PASS" signature="amConfig()[pri:0, instance:vtiger.VendorsTests.CreateVendorTest@3dfc5fb8]" name="amConfig" is-config="true" duration-ms="1385" started-at="2022-09-15T19:29:29 IST" finished-at="2022-09-15T19:29:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[-----signout successfully----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method status="PASS" signature="acConfig()[pri:0, instance:vtiger.VendorsTests.CreateVendorTest@3dfc5fb8]" name="acConfig" is-config="true" duration-ms="268" started-at="2022-09-15T19:29:31 IST" finished-at="2022-09-15T19:29:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[----browser close successfully----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.VendorsTests.CreateVendorTest -->
+      <class name="vtiger.ContactsTests.CreateContactWithMandFieldTest">
+        <test-method status="PASS" signature="bsConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithMandFieldTest@2a742aa2]" name="bsConfig" is-config="true" duration-ms="0" started-at="2022-09-15T19:28:26 IST" finished-at="2022-09-15T19:28:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[---Database connection successful---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method status="PASS" signature="bcConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithMandFieldTest@2a742aa2]" name="bcConfig" is-config="true" duration-ms="5077" started-at="2022-09-15T19:28:26 IST" finished-at="2022-09-15T19:28:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[----browserChromelaunched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method status="PASS" signature="bmConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithMandFieldTest@2a742aa2]" name="bmConfig" is-config="true" duration-ms="3185" started-at="2022-09-15T19:28:31 IST" finished-at="2022-09-15T19:28:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[----Login successful----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:vtiger.ContactsTests.CreateContactWithMandFieldTest@2a742aa2]" name="createContactTest" duration-ms="9980" started-at="2022-09-15T19:28:35 IST" finished-at="2022-09-15T19:28:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="amConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithMandFieldTest@2a742aa2]" name="amConfig" is-config="true" duration-ms="1515" started-at="2022-09-15T19:28:45 IST" finished-at="2022-09-15T19:28:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[-----signout successfully----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method status="PASS" signature="acConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithMandFieldTest@2a742aa2]" name="acConfig" is-config="true" duration-ms="218" started-at="2022-09-15T19:28:46 IST" finished-at="2022-09-15T19:28:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[----browser close successfully----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method status="PASS" signature="asConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithMandFieldTest@2a742aa2]" name="asConfig" is-config="true" duration-ms="0" started-at="2022-09-15T19:29:31 IST" finished-at="2022-09-15T19:29:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[-----database close successfully----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- vtiger.ContactsTests.CreateContactWithMandFieldTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
