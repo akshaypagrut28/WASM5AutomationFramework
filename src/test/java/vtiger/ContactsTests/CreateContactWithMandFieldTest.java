@@ -7,7 +7,9 @@ import vtiger.ObjectRepository.ContactsPage;
 import vtiger.ObjectRepository.CreateNewContactPage;
 import vtiger.ObjectRepository.HomePage;
 
-public class CreateContactWithMandFieldTest  extends BaseClass {
+public class CreateContactWithMandFieldTest  extends BaseClass 
+
+{
 	
 	@Test(groups = "SmokeSuite")
 	public void createContactTest() throws IOException{
