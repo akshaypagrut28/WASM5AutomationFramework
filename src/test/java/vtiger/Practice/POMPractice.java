@@ -2,6 +2,7 @@ package vtiger.Practice;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import vtiger.ObjectRepository.LoginPage;
@@ -23,6 +24,12 @@ public class POMPractice {
 		lp.loginToApp("admin", "admin");
 		driver.close();
 
+	}
+	
+	@Test 
+	public void practice()
+	{
+		System.out.println("hiee");
 	}
 
 }
